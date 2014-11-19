@@ -90,7 +90,7 @@ $scope.articles = ArticleFactory.data.articles
         </pre>
         <pre>
           <code>
-&lt;div ng-repeat="article in articles&gt;
+&lt;div ng-repeat="article in articles"&gt;
   &lt;div&gt;
     {{article.title}}
   &lt;/div&gt;
@@ -127,7 +127,7 @@ $scope.articles = ArticleFactory.data.articles
         <p>Creates the watchers, but destroys them once then evaluate.</p>
         <pre>
           <code>
-&lt;div once-repeat="article in articles&gt;
+&lt;div once-repeat="article in articles"&gt;
   &lt;div once-text="article.title"&gt;
   &lt;/div&gt;
 &lt;/div&gt;
